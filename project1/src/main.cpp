@@ -1,15 +1,23 @@
 #include <iostream>
+#include <vector>
+using std::cout;
+using std::cin;
+using std::endl;
 
 int main()
 {
     int favorite_number;
+    
+    cout<<"Enter your favorite number between 1 and 100: ";
 
-    std::cout<<"Enter your favorite number between 1 and 100:";
-
-    std::cin >>favorite_number;
-
-    std::cout<<"Amazing!! that's my favorite number too!"<<std::endl;
+    cin >>favorite_number;
+    
+  
+    cout<<"Amazing!! that's my favorite number too!"<<endl; 
+    cout<<"No really!!, "<<favorite_number<<" is my favorite number!";
+        
     
     return 0;
 }
+
 
